@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header{ 
+background-color: rgb(207, 143, 116);
+color:rgb(255, 255, 255); 
+padding: 15px; 
+text-align: center;
+border-bottom:rgb(250, 163, 136) 3px solid;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Grid de produtos*/
+.container {
+background-color: rgb(255, 230, 226);
+min-height: 60vh; 
+padding: 50px;
+}
+
+.product-container {
+max-width: 1200px;
+margin: 0 auto;
+}
+.card {
+   width: 31%; /*largura do card em 31% do tamanhdo definido no product-container*/
+   display: inline-block; /*posiciona os cards em linha*/
+}
+
+.product-image {
+    height: 300px;/*altura da imagem*/
+    width: 100%;/*ocupar 100% do espaço do card*/
+    background-position: center;
+    background-size: cover;
+}
+#img-1 {
+    background-image: url(../imagem/img1.jpg);
+}
+#img-2 {
+    background-image: url(../imagem/img2.jpg);
+}
+#img-3 {
+    background-image: url(../imagem/img3.jpg);
+}
+#img-4 {
+    background-image: url(../imagem/img4.jpg);
+}
+#img-5 {
+    background-image: url(../imagem/img5.jpg);
+}
+#img-6 {
+    background-image: url(../imagem/img6.jpg);
+}
+h3 {
+    margin-bottom: 10px;
+    color: rgb(196, 116, 81);
+    font-size: 16px;
+}
+.card p { 
+    margin-bottom: 10px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(208, 140, 111, 0.795);
+    color:rgb(241, 241, 241);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.btn:hover { 
+    background-color:rgb(209, 118, 73);
+}
+
+footer {
+background-color:rgb(253, 253, 253);
+text-align: center;
+padding: 80px;
+color:rgb(185, 110, 82)
+}
