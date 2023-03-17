@@ -1,0 +1,101 @@
+*{
+ box-sizing: border-box;
+}
+
+/*estilo do body*/
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+.anotacao{
+    background-color: rgb(144, 179, 146);
+    padding: 5px;
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagem/Desktop.png);
+    background-size: cover;
+    color:rgb(55, 82, 57);
+}
+
+.barra_nav {
+ display: flex;
+background-color: rgb(0, 6, 1);
+}
+
+.barra_nav a {
+    color:rgb(255, 255, 255);
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.barra_nav a:hover {
+    background-color: rgb(181, 177, 177);
+    color: rgb(255, 255, 255);
+}
+
+/*configurar a div coluna*/
+.coluna {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*criar 2 colunas desiguais (30 a 70%)*/
+.lateral {
+    flex:30%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.principal {
+    flex: 70%;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+}
+
+
+.imagem_falsa {
+    background-color: rgb(180, 212, 158);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+.imagem_falsa2 {
+    background-color: rgb(180, 212, 158);
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.imagem_falsa3 {
+ background-color: rgb(180, 212, 158);
+ width: 100%;
+ padding: 20px;
+height: 200px;
+}   
+.rodape {
+    max-height: fit-content;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);  
+    color: white;
+}
+@media screen and (max-width:500px) {
+.coluna, .barra_nav {
+flex-direction: column;
+}
+.cabecalho {
+padding: 60px;
+text-align: center;
+background-image: url(../imagem/Mobile.png);
+background-size: cover;
+color: rgb(53, 93, 68); 
+}
+}
+
+
+
