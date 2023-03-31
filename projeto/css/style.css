@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+}
+/*Estilo do body*/
+body{
+    font-family: chathura;
+    margin: 0;   
+}
+
+
+.cabecalho {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagem/11.jpg) ;
+    background-size: cover;
+    color: #f9f9f9;
+}
+
+.cabecalho1 {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagem/22.jpg) ;
+    background-size: cover;
+    color: #f9f9f9;
+}
+
+.cabecalho2 {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagem/33.jpg) ;
+    background-size: cover;
+    color: #f9f9f9;
+}
+
+/*Estilo da barra de navegção*/
+.barra_nav {
+    display: flex;
+    background-color:#91D1E6;
+}
+
+/*Estilos dos links da barra de naveggação*/
+.barra_nav a {
+    color:#000000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 450px;
+
+}
+
+/*Trocar a cor de fundo quando o cursor estiver sobre o link*/
+.barra_nav a:hover {
+    background-color: #3e9ed9;
+    color: #ffffff;
+}
+
+/*Configurar a div coluna*/
+.coluna {
+    display: flex;
+    padding: px;
+    flex-wrap: wrap;
+}
+
+.lateral{
+    flex: 30%;
+    background-color: #DCF2F9;
+    padding: 20px;
+    padding-top: 20px;
+    
+}
+
+.lateral1{
+    flex: 30%;
+    background-color: #DCF2F9;
+    padding: 20px;
+    padding-top: 50px;
+    
+}
+
+.lateral2{
+    flex: 30%;
+    background-color: #DCF2F9;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.lateral3{
+    display: block;
+    flex: 30%;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.principal{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.principal1{
+    flex: 70%;
+    background-color: white;
+    padding-top: 35px;
+   
+}
+
+.principal2{
+    flex: 70%;
+    background-color: white;
+    padding-top: 35px;
+}
+
+/*Imagens Falsas apenas para marcação do espaço*/
+.imagem_falsa {
+    background-color: #c39b7f;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+
+.imagem_falsa3 {
+    width: 100%;
+    height: 200px;
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#img-1{
+    background-image: url(../imagem/osenai.png);
+}
+
+#img-2{
+    background-image: url(../imagem/acesse\ meu\ senai.png);
+}
+
+#img-3{
+    background-image: url(../imagem/conecta\ acesse.png);
+}
+
+#img-12{
+    background-image: url(../imagem/icons8-google-classroom\ \(1\).svg) ;
+}
+
+#img-13{
+    background-image: url(../imagem/icons8-google-drive\ \(1\).svg);
+}
+
+#img-14{
+    background-image: url(../imagem/icons8-icons8-novo-logotipo-100.png);
+}
+
+#img-15{
+    background-image: url(../imagem/icons8-figma-100.png);
+}
+
+#img-16{
+    background-image: url(../imagem/icons8-github-100.png) ;
+}
+
+#img-17{
+    background-image: url(../imagem/icons8-canva-100.png);
+}
+
+#img-18{
+    background-image: url(../imagem/icons8-notion-100.png);
+}
+
+#img-19{
+    background-image: url(../imagem/icons8-microsoft-word-2019\ \(1\).svg);
+}
+
+#img-20{
+    background-image: url(../imagem/icons8-microsoft-powerpoint-2019\ \(1\).svg) ;
+}
+
+#img-21{
+    background-image: url(../imagem/icons8-microsoft-excel-2019\ \(1\).svg) ;
+}
+
+
+
+
+
+.btn{
+    display: block;/*exibir o conteudo no formato de um bloco*/
+    padding: 100px;
+    height: 100px;
+    width: 100%;/*ocupar 100% do espaço disponível no card*/
+    background-image: url(../imagem/icons8-cardápio-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn1{
+    display: block;/*exibir o conteudo no formato de um bloco*/
+    padding: 80px;
+    height: 80px;
+    width: 100%;/*ocupar 100% do espaço disponível no card*/
+    background-image: url(../imagem/1904656-calendar-date-day-event-organization-schedule-time_122506\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btngc{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: -10px;
+        top: 100px;   
+}
+
+.btngd{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 3px;
+        top: 100px;   
+}
+
+.btngf{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 3px;
+        top: 100px;   
+}
+
+.btnf{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 35px;
+        top: 100px;   
+}
+
+.btngh{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 27px;
+        top: 100px;   
+}
+
+.btnc{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 30px;
+        top: 100px;   
+}
+
+.btn6{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 100px;
+        left: 33px;
+        top: 100px;   
+}
+
+.btnw{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 40px;
+        top: 100px;   
+}
+
+.btnpp{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 10px;
+        top: 100px;   
+}
+
+.btne{
+    text-decoration: none;
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 45px;
+        top: 100px;   
+}
+
+.container1 {
+    padding: 50px;/*espaçamento de 50px nas margens*/
+    text-align: center;
+    }
+
+    .container {
+        padding: 500px;/*espaçamento de 50px nas margens*/
+        background-color: #e8f0f3;
+   
+        }
+    
+    .card2{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 360px;
+        top: 300px;
+    }
+
+    .card3{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 760px;
+        top: 300px;
+    }
+
+
+.card4{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 150px;
+    top: 510px;
+}
+
+.card5{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 550px;
+    top: 510px;
+}
+
+.card6{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 950px;
+    top: 510px;
+}
+
+.card7{
+    position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 360px;
+        top: 720px;
+}
+
+
+.card8{
+    position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 760px;
+        top: 720px;
+}
+
+.card9{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 150px;
+    top: 930px;
+}
+
+
+.card10{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 550px;
+    top: 930px;
+}
+
+.card11{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 950px;
+    top: 930px;
+}
+
+    .product-image{
+        height: 100px;/*Altura da imagem*/
+        width: 100px;/*ocupar 100% do espaço disponível no card*/
+        background-position: center;
+        background-size: cover;
+    }
+
+
+.rodape{
+    max-height: fit-content;
+    padding: 20px;
+    background-color: #91D1E6;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:500px) {
+    .coluna, .barra_nav{
+        flex-direction: column;
+    }
+    .cabecalho {
+        padding: 60px;
+        text-align: center;
+        background-image: url(../imagem/6.png);
+        background-size: cover;
+        color: white;
+    }
+
+    .cabecalho1 {
+        padding: 60px;
+        text-align: center;
+        background-image: url(../imagem/4.png);
+        background-size: cover;
+        color: white;
+    }
+
+    .cabecalho2 {
+        padding: 60px;
+        text-align: center;
+        background-image: url(../imagem/5.png);
+        background-size: cover;
+        color: white;
+    }
+    
+
+    #img-1{
+       background-image: url(../imagem/1.jpg) ;
+    }
+
+    #img-2{
+        background-image: url(../imagem/3.jpg) ;
+     }
+
+     #img-3{
+        background-image: url(../imagem/2.jpg) ;
+     }
+
+     .card2{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 90px;
+        top: 350px;
+    }
+
+    .card3{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 230px;
+        top: 350px;
+    }
+
+
+.card4{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 20px;
+    top: 480px;
+}
+
+.card5{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 160px;
+    top: 480px;
+}
+
+.card6{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 300px;
+    top: 480px;
+}
+
+.card7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90px;
+    top: 610px;
+}
+
+
+.card8{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 230px;
+    top: 610px;
+}
+
+.card9{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 20px;
+    top: 740px;
+}
+
+
+.card10{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 160px;
+    top: 740px;
+}
+
+.card11 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 300px;
+    top: 740px;
+}
+
+
+}
