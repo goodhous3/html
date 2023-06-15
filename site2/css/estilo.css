@@ -24,8 +24,8 @@ article, figcaption, figure, footer, header, hgroup, nav, section{
 
 	
 body {
-	background: #212121 url(../img/fundo.jpg);
-	color: #FFF;
+	background: #d8ccb6 url(../img/fundo.jpg);
+	color: #000000;
 	font-family: "arial", Helvetica, Verdana;
 	font-size: 1em;
 }
@@ -40,7 +40,7 @@ header, section#conteudo, footer {
 
 
 a {
-	color: #57ABB8;
+	color: #dbd7b6;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -48,7 +48,7 @@ a {
 
 
 a:hover {
-	color:#F60;
+	color:rgb(211, 204, 175);
 }
 
 audio, iframe, img, video {
@@ -57,7 +57,7 @@ audio, iframe, img, video {
 
 
 fieldset {
-	border: .1em solid #F60;
+	border: .1em solid rgb(222, 206, 195);
 	border-radius: .5em;
 	padding: 1em;
 }
@@ -80,20 +80,20 @@ form div {
 
 
 h2, h3 {
-	color: #F90;
+	color: rgb(255, 255, 255);
 	font-family: "arial", Helvetica, Verdana;
 }
 
 h3 {
-	background: #E2E7F1;
+	background: #a0927b;
 	border-radius: 1em;
-	box-shadow: .25em .25em .25em rgba(255,153,0,.5);
+	box-shadow: .25em .25em .25em rgba(60, 43, 9, 0.763);
 	margin-bottom: .5em;
 	padding-left: .5em;
 }
 
 hr {
-	border: 1px dashed #FFF;
+	border: 1px dashed #181111;
 	
 	
 }
@@ -132,9 +132,9 @@ nav li {
 
 nav a {
 	background: #FFF;
-	border: 0.1em solid #57ABB8;
+	border: 0.1em solid #bea98d;
 	border-radius: 0.25em;
-    color: #F60;
+    color: rgb(38, 32, 28);
     display: block;
     font-family: "arial", Helvetica, Verdana;
     font-size: 1.3em;
@@ -148,10 +148,10 @@ nav a {
 
 
 nav a:hover {
-	background: #212121;
-	border: 0.1em dashed #F60;
+	background: #533c27;
+	border: 0.1em dashed rgb(211, 191, 159);
 	border-radius: 0 0.5em 0 0.5em;
-    color: #FFF;
+    color: #f4ebeb;
 	-ms-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
@@ -164,7 +164,7 @@ nav a:hover {
 
 
 section#principal, aside {
-	background: #1E6381;
+	background:#e1d8cbf3;
 	border-radius: 0.5em;
 	display: inline-block;
 	margin: 0 auto;
@@ -197,7 +197,7 @@ article#galeria-inicio  {
 
 
 article#descricao-cursos, article#multimedia-cursos{
-	background: #1E6381;
+	background: #c0b19cf3;
 	border-radius: .5em;
 	display: inline-block;
 	margin: 0 auto;
@@ -210,7 +210,7 @@ article#descricao-cursos, article#multimedia-cursos{
 }
 
 article#nossos-servicos, article#servicos1, article#servicos2, article#servicos3{
-	background: #1E6381;
+	background: #d9cdb9;
 	max-width: 100%;
 	min-height:300px;
 	width:55%;
@@ -234,7 +234,7 @@ article#servicos3 ol li{
 }
 
 article#servicos1, article#servicos2, article#servicos3{
-	background: #011E30;
+	background: #f4e8dabe;
 	display:inline-block;
 	width:31%;
 	vertical-align: top;
@@ -260,7 +260,7 @@ aside img, #img-cursos img, #video-cursos, #img-servicos {
 
 
 section#trabalhos{
-	background: #011E30;
+	background: #c1b59ada;
 	border-radius: .5em;
 	margin:0 auto;
 	max-width: 80%;
@@ -280,7 +280,7 @@ div.portifolio article{
 
 
 section#contato, section#mapa{
-	background:#011E30;
+	background:#ccbfa7;
 	border-radius: .5em;
 	display:inline-block;
 	margin:0 auto;
@@ -292,7 +292,7 @@ section#contato, section#mapa{
 }
 
 article#info-contato{
-	border: .1em solid #1e6381;
+	border: .1em solid #e2dccfd4;
 	border-radius: .5em;
 	margin: .5em;
 	min-height:144px;
@@ -300,7 +300,7 @@ article#info-contato{
 }
 
 span.dados-contato{
-	color: #e2ab53;
+	color: #4f4232;
 	margin-left: 1em;
 }
 
@@ -311,36 +311,35 @@ span.dados-contato{
 
 
 input[type="email"], input[type="text"], textarea{
-	background: #EEE;
+	background: #ffffff;
 	border-radius: .25em;
-	color: #F60;
+	color: rgb(35, 22, 13);
 	font-size: 1em;
 	padding: .25em;
 	width:95%;
 }
 
 input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
-	background: #C6ECF9;
+	background: #000000;
 }
 
 input[type="submit"]{
-	background: #F90;
+	background: rgb(123, 108, 87);
 	border-radius: .25em;
-	color: #500;
+	color: rgba(255, 255, 255, 0.89);
 	font-size: 1.25em;
 	padding: .25em;
 	font-family: "arial";
 }
-
 input[type="submit"]:hover{
-	background: #7BBFD5;
+	background: #c0a085;
 	border-radius: .25em;
 	color: #000;
 	cursor: pointer;
 }
 
 legend{
-	color:#F90;
+	color:rgb(9, 8, 7);
 }
 
 
