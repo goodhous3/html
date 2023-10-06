@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*altera o posicionamento do div kanban (principal)*/
+
+.kanban {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.column {
+    width: 30%;
+    background-color: rgb(237, 234, 234);
+    border-radius: 10px;
+    padding: 0.5rem;
+
+}
+
+.tasks {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    border: 2px dashed #1e1d1d;
+    border-radius: 10px;
+}
+
+.tasks li {
+    background-color: rgb(220, 217, 217);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: move;
+
+}
+
+.tasks li.dragging {
+    opacity: 0.5; 
+
+}
+
+.tasks li:hover {
+    background-color: rgb(196, 191, 191); /*troca a cor de fundo com a passagem do mouse*/
+}
+
+h2 {
+    text-align: center;
+}
+
+#add-task-form {
+    margin-bottom:1.5rem;
+    margin-left: 1rem;
+}
+
+#add-task-form input [type="text"] {
+    padding:0.3rem;
+    margin-right: 0.3rem;
+    border-radius:3px;
+    border: 1px solid #ccc;
+
+}
+
+#add-task-form button[type="submit"] {
+    padding: 0.3rem 1rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
